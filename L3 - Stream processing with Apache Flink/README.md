@@ -14,14 +14,28 @@
 
 Для выполнения заданий вам потребуется датасет с данными о поездках такси в Нью-Йорке https://github.com/apache/flink-training/blob/master/README.md#using-the-taxi-data-streams. Файлы `nycTaxiFares.gz` и `nycTaxiRides.gz` вы можете найти в папке `data` https://gitlab.com/ssau.tk.courses/big_data/-/tree/master/data. 
 
-## Начало работы
+## Отчёт
 
-1. git clone https://github.com/ververica/flink-training-exercises
-2. Откройте проект в IntelliJ IDEA 
-3. Перед выполнением заданий укажите путь к данным в переменных `pathToRideData` и `pathToFareData` в файле `./flink-training-exercises/src/main/java/com/ververica/flinktraining/exercises/datastream_java/utils/ExerciseBase.java`.
-4. Для выполнения первого задания на **Scala** откройте файл `./flink-training-exercises/src/main/scala/com/ververica/flinktraining/exercises/datastream_scala/basics/RideCleansingExercise.scala`. В месте решения вы найдёте `throw new MissingSolutionException()`.
-5. Запустите тест `./flink-training-exercises/src/test/java/com/ververica/flinktraining/exercises/datastream_java/basics/RideCleansingScalaTest.java`. Тест должен завершиться успешно, но сама программа будет завершаться аварийно с исключением `MissingSolutionException`.
-6. Реализуйте недостающий код. С помощью теста проверьте корректность работы вашего решения.
+- [RideCleanisingExercise](flink-training-exercises/src/main/java/com/ververica/flinktraining/exercises/datastream_java/basics/RideCleansingExercise.java)
 
+Тесты
 
-Зарегистрируйтесь на сайте https://training.ververica.com для доступа к теоретическим материалам и дополнительным упражнениям.
+![alt text](screens/RideCleansing.png)
+
+- [RidesAndFaresExercise](flink-training-exercises/src/main/java/com/ververica/flinktraining/exercises/datastream_java/state/RidesAndFaresExercise.java)
+
+Тесты
+
+![alt text](screens/RidesAndFares.png)
+
+- [HourlyTipsExerxise](flink-training-exercises/src/main/java/com/ververica/flinktraining/exercises/datastream_java/windows/HourlyTipsExercise.java)
+
+Тесты
+
+![alt text](screens/HourlyTips.png)
+
+- [ExpiringStateExercise](flink-training-exercises/src/main/java/com/ververica/flinktraining/exercises/datastream_java/windows/HourlyTipsExercise.java)
+
+Тесты
+
+![alt text](screens/HourlyTips.png)
